@@ -36,7 +36,7 @@ func main() {
 		animal = strings.ToLower(animal)
 		info = strings.ToLower(info)
 
-		switch := animal {
+		switch animal {
 		case "cow":
 			input = cow
 		case "bird":
