@@ -69,5 +69,5 @@ func main() {
 	}
 	wg.Wait()
 
-	fmt.Printf("\nFinish eating!!\n")
+	fmt.Println("\nFinish eating!!")
 }
