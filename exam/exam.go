@@ -5,10 +5,6 @@ import (
 )
 
 func main() {
-	i := 2
-	tryPointer(&i)
-}
-
-func tryPointer(p *int) {
-	fmt.Println(p)
+	go fmt.Printf("Hello, World! from Go Routine\n")
+	fmt.Printf("Hello, World! from Main\n")
 }

@@ -28,7 +28,7 @@ func main() {
 		i += 1
 	}()
 
-	time.Sleep(1 * time.Second)
+	time.Sleep(100 * time.Millisecond)
 	fmt.Println("done")
 	fmt.Println("\nExplanation:")
 	fmt.Println("condition occurs when two or more goroutines access the same variable concurrently.")
