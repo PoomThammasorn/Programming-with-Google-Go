@@ -91,7 +91,6 @@ func main() {
 	fmt.Println("Array 2:", arr2)
 	fmt.Println("Array 3:", arr3)
 	fmt.Println("Array 4:", arr4)
-	xw
 
 	result1 := merge(arr1, arr2)
 	result2 := merge(arr3, arr4)
