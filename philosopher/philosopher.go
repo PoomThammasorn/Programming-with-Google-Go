@@ -27,7 +27,7 @@ func (p Philo) eat(idx int, permission chan bool, wg *sync.WaitGroup) {
 		p.rightChop.Lock()
 
 		fmt.Printf("Start to eat %d (%d EAT)\n", idx, i+1)
-		time.Sleep(100 * time.Millisecond) // Eating time
+		time.Sleep(500 * time.Millisecond) // Eating time
 		p.leftChop.Unlock()
 		p.rightChop.Unlock()
 
